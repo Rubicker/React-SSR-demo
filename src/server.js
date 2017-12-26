@@ -16,7 +16,6 @@ server.get('/', (req, res) => {
   const styles = sheet.getStyleTags()  // get all the tags from the sheet
   const title = 'SSR with Styled Components'
 
-
   res.send(
     Html({
       body,
